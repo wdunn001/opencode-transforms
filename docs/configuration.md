@@ -7,6 +7,7 @@ Set these in the environment opencode starts in.
 | `STRATA_TRANSFORMS=0` | turns the plugin off |
 | `STRATA_PIPES_OFF=a,b` | turns single pipes off by name, for example `STRATA_PIPES_OFF=headTail,dedupeLines` |
 | `STRATA_TRANSFORMS_LOG=path` | appends one JSON line per item that a pipe matched |
+| `STRATA_SKILL_PICK=0`, `STRATA_DECIDE_URL` | the skill pick, see [skill-pick.md](skill-pick.md) |
 
 A log line looks like this:
 

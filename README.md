@@ -57,6 +57,7 @@ Qwen3.8-Flash-Next (IQ3_S) on a local Strata engine, opencode 2.1.4, 2026-10-24:
 - [The pipes](docs/pipes.md): what each built-in pipe matches and does
 - [Writing a pipe](docs/writing-a-pipe.md): the `PipeDef` interface and an example
 - [Configuration](docs/configuration.md): environment switches and the log
+- [Skill pick](docs/skill-pick.md): skills loaded per prompt instead of listed in every request
 - [Testing and benchmarking](docs/testing.md)
 
 ## Status
