@@ -64,3 +64,7 @@ Qwen3.8-Flash-Next (IQ3_S) on a local Strata engine, opencode 2.1.4, 2026-10-24:
 Working and in daily use. opencode 2.x has no published plugin types package that matches
 its runtime (`@opencode-ai/plugin` 1.19.4 does not), so the hook arguments are typed loosely
 and a future opencode release could change their shape.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
