@@ -5,7 +5,7 @@
     node --experimental-strip-types --test plugin-lib/pipeline.test.ts
 
 They cover the gates, purity (same input twice gives identical bytes), idempotence, the
-loader (invalid pipes and duplicate names are rejected), and each pipe on fixtures.
+loader (a file that is not a pipe is rejected at startup), and each pipe on fixtures.
 
 ## Detection benchmark
 
